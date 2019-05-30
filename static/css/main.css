@@ -1,0 +1,38 @@
+
+.w1200_center{
+  width: 1200px;
+  margin: 0 auto;
+}
+.side_nav_fixed {
+  position: fixed;
+  left: 10%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  z-index: 2;
+  top: 220px;
+}
+
+.side_nav_top {
+  font-weight: bold;
+  line-height: 60px;
+  width: 180px;
+  height: 60px;
+  background: #1A284D;
+}
+
+.side_nav_sub {
+  cursor: pointer;
+  line-height: 60px;
+  width: 180px;
+  height: 60px;
+  background: #203260;
+}
+
+.side_nav_sub:hover {
+  background-image: url("../../static/res/common/side_nav_right_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 10% center;
+  color: #608AD8;
+}
+
